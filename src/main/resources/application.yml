@@ -1,2 +1,7 @@
 server:
   port: 8080
+spring:
+  freemarker:
+    suffix: .ftl
+    template-loader-path: classpath:/templates/ #模板加载路径 按需配置
+    charset: UTF-8 #编码格式
